@@ -1,0 +1,8 @@
+---
+timeout: 320
+wait: 30
+max_conns: 1024
+environment: production
+max_persistent_conns: 1000
+port: 8888
+servers: 1
