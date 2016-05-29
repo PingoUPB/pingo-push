@@ -22,3 +22,5 @@ bayeux.on(:unsubscribe) do |client_id, channel|
 end
 
 run bayeux
+
+# to start: bundle exec thin -C thin_config.yml start
